@@ -392,7 +392,7 @@ const App: React.FC = () => {
                           <strong>Pressure</strong>
                         </Typography>
                         <Typography variant='subtitle1'>
-                          {data.pressure}
+                          {data.pressure} hPa
                         </Typography>
                       </div>
                     </Grid>
@@ -428,7 +428,7 @@ const App: React.FC = () => {
                           <strong>Visibility</strong>
                         </Typography>
                         <Typography variant='subtitle1'>
-                          {data.visibility}
+                          {data.visibility/1000} KM
                         </Typography>
                       </div>
                     </Grid>
